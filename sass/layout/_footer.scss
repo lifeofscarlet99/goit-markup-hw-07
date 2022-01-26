@@ -1,0 +1,119 @@
+.footer {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.address {
+  color: var(--header-color);
+}
+.footer-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.footer .link,
+.footer .tel {
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+.footer .link,
+.footer .tel {
+  color: rgba(255, 255, 255, 0.6);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+#logo-white {
+  color: #ffffff;
+}
+.footer .address {
+  font-style: normal;
+}
+.address.address.tel {
+  margin-top: 9px;
+}
+.footer.footer-logo {
+  padding-bottom: 9px;
+  margin-top: 60px;
+}
+.address.address {
+  margin-top: 20px;
+}
+.address-text {
+  margin-bottom: 9px;
+}
+
+.footer-right-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.footer-social-link:hover .footer-social-icon,
+.footer-social-link:focus .footer-social-icon {
+  fill: #ffffff;
+}
+.footer-social-icon {
+  fill: #ffffff;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-social-link {
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: #2196f3;
+  }
+}
+
+.footer-social-list {
+  display: flex;
+  justify-content: center;
+}
+.footer-social-item + .footer-social-item {
+  margin-left: 10px;
+}
+.main-footer {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-right {
+  text-align: left;
+  margin-left: 70px;
+}
+.address.address {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  width: 231px;
+}
+.link.tel {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
