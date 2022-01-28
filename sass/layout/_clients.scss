@@ -1,4 +1,4 @@
-.clients-title {
+.clients__title {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -9,21 +9,21 @@
   color: #212121;
   margin-bottom: 50px;
 }
-.section-our-clients {
+.section-clients {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.clients-social-list {
+.clients__list {
   display: flex;
   justify-content: center;
   margin: 0;
   padding: 0;
 }
 
-.clients-social-item {
+.clients__item {
   margin-right: 30px;
 }
-.clients-social-link {
+.clients__link {
   width: 170px;
   height: 92px;
   display: flex;
@@ -36,11 +36,10 @@
   &:hover,
   &:focus {
     fill: var(--accent-color);
-  border: 1px solid #2196f3;
+    border: 1px solid #2196f3;
   }
 }
 
-
-.clients-social-link {
+.clients__link {
   fill: #afb1b8;
 }

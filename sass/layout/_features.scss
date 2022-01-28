@@ -2,7 +2,7 @@
   padding-top: 94px;
 }
 
-.icon-features {
+.features-image {
   background: #f5f4fa;
   border-radius: 4px;
   width: 270px;
@@ -13,11 +13,11 @@
   margin-bottom: 30px;
 }
 
-.features-social-icon {
+.features-image__icon {
   fill: #212121;
 }
 
-.features-item {
+.features-list__item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -27,10 +27,10 @@
   width: 270px;
 }
 
-.features-item:not(:last-child) {
+.features-list__item:not(:last-child) {
   margin-right: 30px;
 }
-.features-item h3 {
+.features-list__item h3 {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -45,7 +45,7 @@
   justify-content: center;
 }
 
-.features-after-title {
+.features-list__title {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
