@@ -61,9 +61,11 @@
   margin-bottom: 20px;
 }
 
-.footer-right__link:hover .footer-right__icon,
-.footer-right__link:focus .footer-right__icon {
-  fill: #ffffff;
+.footer-right__link .footer-right__icon,
+.footer-right__link .footer-right__icon {
+  &:hover,
+  &:focus {
+    fill: #ffffff;}
 }
 .footer-right__icon {
   fill: #ffffff;

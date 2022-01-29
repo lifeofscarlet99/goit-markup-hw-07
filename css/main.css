@@ -394,8 +394,9 @@ img {
   background-color: #2196f3;
 }
 
-.team-images-list__link:hover .team-images-list__icon,
-.team-images-list__link:focus .team-images-list__icon {
+.team-images-list__link .team-images-list__icon:hover, .team-images-list__link .team-images-list__icon:focus,
+.team-images-list__link .team-images-list__icon:hover,
+.team-images-list__link .team-images-list__icon:focus {
   fill: #ffffff;
 }
 
@@ -648,7 +649,7 @@ img {
   border-color: #2196f3;
 }
 
-.form-field:focus-within .form-field__icon {
+.form-field .form-field__icon:focus-within {
   fill: #2196f3;
 }
 
@@ -792,8 +793,9 @@ img {
   margin-bottom: 20px;
 }
 
-.footer-right__link:hover .footer-right__icon,
-.footer-right__link:focus .footer-right__icon {
+.footer-right__link .footer-right__icon:hover, .footer-right__link .footer-right__icon:focus,
+.footer-right__link .footer-right__icon:hover,
+.footer-right__link .footer-right__icon:focus {
   fill: #ffffff;
 }
 

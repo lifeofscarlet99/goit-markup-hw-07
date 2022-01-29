@@ -52,9 +52,12 @@
   }
 }
 
-.team-images-list__link:hover .team-images-list__icon,
-.team-images-list__link:focus .team-images-list__icon {
-  fill: #ffffff;
+.team-images-list__link .team-images-list__icon,
+.team-images-list__link .team-images-list__icon {
+  &:hover,
+  &:focus {
+    fill: #ffffff;
+  }
 }
 .team-images-list__icon {
   fill: #afb1b8;
@@ -65,8 +68,10 @@
   display: flex;
   justify-content: center;
 }
-.team-images-list__item + .team-images-list__item {
-  margin-left: 10px;
+.team-images-list__item {
+  & + & {
+    margin-left: 10px;
+  }
 }
 
 .team-content__title {

@@ -159,8 +159,10 @@
     border-color: #2196f3;
   }
 }
-.form-field:focus-within .form-field__icon {
-  fill: #2196f3;
+.form-field .form-field__icon {
+  &:focus-within {
+    fill: #2196f3;
+  }
 }
 
 .link.form-field-policy__link {
@@ -216,12 +218,13 @@
     margin-right: 8.38px;
   }
 }
-.policy-check:checked + .check-text::before {
+.policy-check:checked + .check-text {
+  &::before {
   border: none;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(../images5/icon-check.svg);
+  background-image: url(../images5/icon-check.svg);}
 }
 .policy-check {
   visibility: hidden;
